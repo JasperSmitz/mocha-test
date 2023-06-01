@@ -1,4 +1,3 @@
-const chai = window.chai
 const expect = chai.expect
 
 describe('times5', () => {
