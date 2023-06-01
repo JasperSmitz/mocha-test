@@ -1,5 +1,6 @@
-const chai = window.chai
-const expect = chai.expect
+const chai = require('chai');
+const expect = chai.expect;
+
 
 describe('times5', () => {
   it('Multiplies array of integers by 5', () => {
