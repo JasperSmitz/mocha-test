@@ -12,3 +12,8 @@ function times5(x) {
 function getCelsius(farenheit) {
   return farenheit.map(value => (value -32) * 5/9)
 }
+
+module.exports = {
+  times5,
+  getCelsius
+};
