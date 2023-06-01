@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "testing unit tests with mocha and github actions",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests"
   },
   "devDependencies": {
     "chai": "^4.3.7",
