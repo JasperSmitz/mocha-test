@@ -6,14 +6,22 @@ function times5(x) {
 }
 
 // farenheit to celcius
-// [23, 140, 212, 41] => [-5, 60, 100, 5]
-// (32°F − 32) × 5/9 = 0°C
+// [23, 140, 212, 41] -> [-5, 60, 100, 5]
+// (F − 32) × 5/9 = C
 
 function getCelsius(farenheit) {
   return farenheit.map(value => (value -32) * 5/9)
 }
 
+// 
+// [23, 140, 212, 41] -> [-5, 60, 100, 5]
+
+function extendString(input) {
+  return (input + input)
+}
+
 module.exports = {
   times5,
-  getCelsius
+  getCelsius,
+  extendString
 };

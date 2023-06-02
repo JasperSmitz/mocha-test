@@ -17,3 +17,10 @@ describe('getCelsius', () => {
     expect(problems.getCelsius([-58, -22, -4, 14])).to.deep.equal([-50, -30, -20, -10])
   })
 })
+
+describe('extendString', () => {
+  it('doubles the input', () => {
+    expect(problems.extendString("hallo")).to.deep.equal("hallohallo")
+    expect(problems.extendString("s")).to.deep.equal("ss")
+  })
+})
