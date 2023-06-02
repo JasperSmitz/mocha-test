@@ -17,7 +17,7 @@ function getCelsius(farenheit) {
 // [23, 140, 212, 41] -> [-5, 60, 100, 5]
 
 function extendString(input) {
-  return (input + input)
+  return (input - input)
 }
 
 module.exports = {
